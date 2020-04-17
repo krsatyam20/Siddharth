@@ -1,0 +1,66 @@
+vba:visual basic application /Macro
+
+		language 
+
+Why use vba: ms-excel provide basic function  which might not be 
+sufficent to perform complex task
+			
+how to start vba/install vba
+				=>No need to install vba
+				=>only enable developer option in excel/any ms -office application
+				
+
+str:
+
+	modules: Modules is the area where the code is writen
+	
+			procedure :procedure is a group of statment which instruct how to perform a specific task.
+					 =>Function : a function is a group of reuseable code
+						it may be return or not 
+					
+					 =>sub : simialr to function  but it`s do not return any value 
+					
+					
+			show any  msg
+
+
+			Sub msg() //here "sub" is a reseverd key and "msg" is user define(we can define any things)
+			 MsgBox ("hello sir") : show any value in popup we use msgbox
+			End Sub
+			
+			
+			Function showMsg()  // here "function" is a reseverd key and "showMsg" is user define(we can define any things)
+			showMsg = "Hello Sir"
+			End Function
+			
+			
+			
+		variable:variable is a memory loction  where we can store our value 
+			
+			value: raw/data
+					whithin a vba data/value divided into two parts
+							=>numeric(intgere(0-9)/float(0.0-9.9)/double(0.00-9.99))
+							=>non numeric(strnig "any value whithin a couts"
+											"9" string
+											9 numeric/integer
+										date 
+										object
+										variant(array(collection of more then on value on single variable)
+										
+										
+			how do define variable and assign the value
+				
+			dim variableName(userdefine) as valueType
+			
+			dim x as integer // define variable
+				x=10  // assign value on variable
+				
+				note:
+					=> variableName not start with capital letter
+					=> variableName not start with special char. (#/@/!)
+					=> variableName not start with numeric value (9x)
+					
+				=>x9 
+				=>x@	
+				
+			
